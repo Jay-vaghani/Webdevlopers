@@ -1,0 +1,400 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Great+Vibes&family=Kaushan+Script&family=Pacifico&family=Roboto:wght@300&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    scroll-behavior: smooth;
+
+}
+
+h2{
+    font-size: 0.9rem;
+    margin: 20px 0px 15px 0px;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+i{
+    color: rgb(0, 157, 255);
+}
+
+img{
+    width: 150px;
+    display: block;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(41, 184, 255, 0.3), rgba(0, 168, 255,0.3)), url(IMG/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 75%, 50% 100%, 50% 100%, 0 75%, 0 0);
+    position: relative;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.header i{
+    color: #fff;
+}
+
+.header::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background: linear-gradient(to right, #1e5799 0%, #0069ff 0%, #00c4ff 100%);
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.navbar::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background: linear-gradient(to right, #1e5799 0%, #0069ff 0%, #00c4ff 100%);
+    opacity: 0.3;
+    z-index: -1;
+}
+
+/*----------------------------------------Nav Bar End----------------------------------------*/
+
+
+.header-section{
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    font-family: 'Kaushan Script', cursive;
+}
+
+.header-buttons a{
+    border: 1px solid white;
+    margin: 0px 5px 0px 5px;
+    padding: 12px 32px;
+    border-radius: 100px;
+    color: white;    
+}
+
+
+.header-buttons a:hover{
+    color: #78c7f8;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 157, 255, 0.6);
+}
+
+.center-div p {
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+}
+
+/*----------------------------------------Header Seaction End----------------------------------------*/
+
+
+.header-extradiv{
+    width: 100%;
+    height: auto;
+    margin: 100px 0px;
+}
+
+.extradiv{
+    background-color: #fff;
+    border: medium none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.extradiv:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 157, 255, 0.6);
+    transform: translateY(-25px);
+}
+
+/*----------------------------------------Card Section End----------------------------------------*/
+
+.serviceoffers{
+    background: #76d0f33d;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+/*----------------------------------------Offer Section End----------------------------------------*/
+
+.project-work{
+    margin: 100px 0px;
+}
+
+/*----------------------------------------Project Section End----------------------------------------*/
+
+.price{
+    width: 100%;
+    padding: 50px;
+    position: relative;
+}
+
+.price::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: -1;
+    background: linear-gradient(-161deg ,#16c9f6 55% , #fff 0%);
+}
+
+.money{
+    font-size: 40px;
+    line-height: 5px;
+    color: #606060;
+    font-weight: 500;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card-header{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 25px 0px;
+    color: #606060;
+
+}
+
+
+.card-body{
+    padding: 30px 0px;
+}
+
+.card-body{
+    margin: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6rem;
+    color: #606060;
+}
+
+.card-footer{
+    padding: 30px 0px;
+}
+
+.card-footer a{
+    border: 0px solid white;
+    margin: 0px 5px 0px 5px;
+    padding: 12px 32px;
+    border-radius: 100px;
+    color: #00ccff; 
+    font-weight: 500;   
+    transition: 0.3s;
+}
+
+
+.card:hover .card-footer a{
+    color: white;
+    background-color: #00ccff;
+    box-shadow: 0 0px 20px rgba(0, 157, 255, 0.6);
+    /* font-size: 1.1rem; */
+}
+
+.price .card:hover{
+    transform: translateY(-10px);
+}
+
+.card:hover .card-header, .card:hover .money{
+    color: #00ccff;
+}
+
+.card-center{
+    margin-top: -10px;
+}
+
+/*----------------------------------------Price Section End----------------------------------------*/
+
+.client h1{
+    color: rgba(0,204,255,0.75);
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+
+.box{
+    box-shadow: 0px 0px 100px 0px rgba(0,204,255,0.75) inset;
+    -webkit-box-shadow: 0px 0px 100px 0px rgba(0,204,255,0.75) inset;
+    -moz-box-shadow: 0px 0px 100px 0px rgba(0,204,255,0.75) inset;
+    transition: 0.3s ease-in-out;
+    padding: 20px 0px;
+}
+
+.box:hover{
+    box-shadow: 200px 200px 400px 200px rgba(0,204,255,0.89) inset;
+    -webkit-box-shadow: 200px 200px 400px 200px rgba(0,204,255,0.89) inset;
+    -moz-box-shadow: 200px 200px 400px 200px rgba(0,204,255,0.89) inset;
+    color: #fff;
+    padding: 20px 0px;
+    transform: translateY(-10px);
+}
+
+.box h3{
+    color: rgba(0,204,255,0.89)
+}
+
+.box:hover h3{
+    color: #fff;
+}
+
+.box p{
+    text-align: center;
+    margin: 15px;
+}
+
+
+.box img{
+    display: block;
+    margin: auto;
+    width: 270px;
+    clip-path: circle();
+}
+
+
+.carousel-control-prev{
+display: flex ;
+justify-content: start;
+height: 190px;
+}
+
+.carousel-control-next{
+    display: flex ;
+    justify-content: flex-end;
+    height: 190px;
+}
+
+/*----------------------------------------Client Review Section End----------------------------------------*/
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.contact:hover .submit{
+    display: block;
+}
+
+.contact::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: -1;
+    background: linear-gradient(-161deg ,#16c9f6 55% , #fff 0%);
+
+}
+
+.contact-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-check-label{
+    color: rgba(0,204,255,0.89);
+}
+
+.submit{
+    background-color: #fff;
+    border: none;
+    color: rgba(0,204,255,0.89);
+    box-shadow: 0px 0px 10px 6px rgba(0,204,255,0.89) inset;
+    -webkit-box-shadow: 0px 0px 10px 6px rgba(0,204,255,0.89) inset;
+    -moz-box-shadow: 0px 0px 10px 6px rgba(0,204,255,0.89) inset;
+    transition: 0.3s ease-in-out;
+}
+
+.submit:hover{
+    background:rgba(0,204,255,0.89) ;
+    color: #fff;
+}
+
+/*----------------------------------------Contact Us Page End----------------------------------------*/
+
+.News-Leter-Page{
+    height: 40vh;
+    margin-top: 40px;
+}
+
+.news-input{
+    outline: none;
+    border-radius: 20px 0px 0px 20px;
+    border: 2px solid rgb(0,204,255);
+    text-align: center;
+}
+
+.News-Leter-Page input{
+    width: 100%;
+}
+
+.news-input::placeholder{
+    text-align: center;
+}
+
+.Subscribe-btn{
+    background-color: #fff;
+    border: none;
+    color: rgba(0,204,255,0.89);
+    box-shadow: 0px 0px 10px 6px rgba(0,204,255,0.89) inset;
+    -webkit-box-shadow: 0px 0px 10px 6px rgba(0,204,255,0.89) inset;
+    -moz-box-shadow: 0px 0px 10px 6px rgba(0,204,255,0.89) inset;
+    transition: 0.3s ease-in-out;
+    height: 50px;
+    padding: 0 15px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.Subscribe-btn:hover{
+    background:rgba(0,204,255,0.89) ;
+    color: #fff
+}
+
+/*----------------------------------------News Letter Page End----------------------------------------*/
+
+footer{
+    background-color: rgba(0,204,255,0.89);
+    color: #fff;
+
+}
+ .footer-one{
+    padding: 50px 0px;
+    border-radius: 10px;
+}
+
+/*----------------------------------------Footer Page End----------------------------------------*/
+
